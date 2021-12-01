@@ -128,8 +128,8 @@ func isPossibleConformance(_ type: Any.Type, _ proto: Any.Type) -> Bool {
   var result = true
   for _ in 0..<pointer.pointee.numProtocols {
     let address = protocolPointer.load(as: UInt64.self)
-    let descriptorPointer = protocolPointer.load(as: UnsafePointer<ProtocolDescriptor>.self)
     // Use this to verify the protocol descriptor is correct
+//    let descriptorPointer = protocolPointer.load(as: UnsafePointer<ProtocolDescriptor>.self)
 //    let namePointer = UnsafeRawPointer(descriptorPointer) + MemoryLayout<ProtocolDescriptor>.offset(of: \.name)! + Int(descriptorPointer.pointee.name)
 //    let protocolName = String(cString: namePointer.assumingMemoryBound(to: UInt8.self))
 //    print("Name: \(protocolName)")

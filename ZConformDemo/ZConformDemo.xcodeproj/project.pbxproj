@@ -17,6 +17,16 @@
 		FABD023D27571729003FA4FB /* ZConform.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABD023C27571729003FA4FB /* ZConform.swift */; };
 		FABD023F275717E4003FA4FB /* libZConform.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FABD02312757010C003FA4FB /* libZConform.a */; };
 		FABD02432757181D003FA4FB /* ZConformHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = FABD023A27570322003FA4FB /* ZConformHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FABD024F275718C4003FA4FB /* TestConformances4.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABD0245275718C4003FA4FB /* TestConformances4.swift */; };
+		FABD0250275718C4003FA4FB /* TestConformances7.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABD0246275718C4003FA4FB /* TestConformances7.swift */; };
+		FABD0251275718C4003FA4FB /* TestConformances.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABD0247275718C4003FA4FB /* TestConformances.swift */; };
+		FABD0252275718C4003FA4FB /* TestConformances5.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABD0248275718C4003FA4FB /* TestConformances5.swift */; };
+		FABD0253275718C4003FA4FB /* TestConformances2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABD0249275718C4003FA4FB /* TestConformances2.swift */; };
+		FABD0254275718C4003FA4FB /* TestConformances3.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABD024A275718C4003FA4FB /* TestConformances3.swift */; };
+		FABD0255275718C4003FA4FB /* TestConformances8.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABD024B275718C4003FA4FB /* TestConformances8.swift */; };
+		FABD0256275718C4003FA4FB /* TestConformances9.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABD024C275718C4003FA4FB /* TestConformances9.swift */; };
+		FABD0257275718C4003FA4FB /* TestConformances10.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABD024D275718C4003FA4FB /* TestConformances10.swift */; };
+		FABD0258275718C4003FA4FB /* TestConformances6.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABD024E275718C4003FA4FB /* TestConformances6.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +65,16 @@
 		FABD023A27570322003FA4FB /* ZConformHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZConformHelper.h; sourceTree = "<group>"; };
 		FABD023B27571729003FA4FB /* ZConform-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZConform-Bridging-Header.h"; sourceTree = "<group>"; };
 		FABD023C27571729003FA4FB /* ZConform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZConform.swift; sourceTree = "<group>"; };
+		FABD0245275718C4003FA4FB /* TestConformances4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestConformances4.swift; sourceTree = "<group>"; };
+		FABD0246275718C4003FA4FB /* TestConformances7.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestConformances7.swift; sourceTree = "<group>"; };
+		FABD0247275718C4003FA4FB /* TestConformances.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestConformances.swift; sourceTree = "<group>"; };
+		FABD0248275718C4003FA4FB /* TestConformances5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestConformances5.swift; sourceTree = "<group>"; };
+		FABD0249275718C4003FA4FB /* TestConformances2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestConformances2.swift; sourceTree = "<group>"; };
+		FABD024A275718C4003FA4FB /* TestConformances3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestConformances3.swift; sourceTree = "<group>"; };
+		FABD024B275718C4003FA4FB /* TestConformances8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestConformances8.swift; sourceTree = "<group>"; };
+		FABD024C275718C4003FA4FB /* TestConformances9.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestConformances9.swift; sourceTree = "<group>"; };
+		FABD024D275718C4003FA4FB /* TestConformances10.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestConformances10.swift; sourceTree = "<group>"; };
+		FABD024E275718C4003FA4FB /* TestConformances6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestConformances6.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +118,7 @@
 		FABD0218275700D4003FA4FB /* ZConformDemo */ = {
 			isa = PBXGroup;
 			children = (
+				FABD02442757188B003FA4FB /* TestConformances */,
 				FABD0219275700D4003FA4FB /* AppDelegate.swift */,
 				FABD021B275700D4003FA4FB /* SceneDelegate.swift */,
 				FABD021D275700D4003FA4FB /* ViewController.swift */,
@@ -125,6 +146,23 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FABD02442757188B003FA4FB /* TestConformances */ = {
+			isa = PBXGroup;
+			children = (
+				FABD0247275718C4003FA4FB /* TestConformances.swift */,
+				FABD0249275718C4003FA4FB /* TestConformances2.swift */,
+				FABD024A275718C4003FA4FB /* TestConformances3.swift */,
+				FABD0245275718C4003FA4FB /* TestConformances4.swift */,
+				FABD0248275718C4003FA4FB /* TestConformances5.swift */,
+				FABD024E275718C4003FA4FB /* TestConformances6.swift */,
+				FABD0246275718C4003FA4FB /* TestConformances7.swift */,
+				FABD024B275718C4003FA4FB /* TestConformances8.swift */,
+				FABD024C275718C4003FA4FB /* TestConformances9.swift */,
+				FABD024D275718C4003FA4FB /* TestConformances10.swift */,
+			);
+			path = TestConformances;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,9 +271,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FABD024F275718C4003FA4FB /* TestConformances4.swift in Sources */,
+				FABD0251275718C4003FA4FB /* TestConformances.swift in Sources */,
+				FABD0257275718C4003FA4FB /* TestConformances10.swift in Sources */,
+				FABD0255275718C4003FA4FB /* TestConformances8.swift in Sources */,
+				FABD0256275718C4003FA4FB /* TestConformances9.swift in Sources */,
+				FABD0253275718C4003FA4FB /* TestConformances2.swift in Sources */,
+				FABD0258275718C4003FA4FB /* TestConformances6.swift in Sources */,
 				FABD021E275700D4003FA4FB /* ViewController.swift in Sources */,
+				FABD0250275718C4003FA4FB /* TestConformances7.swift in Sources */,
 				FABD021A275700D4003FA4FB /* AppDelegate.swift in Sources */,
 				FABD021C275700D4003FA4FB /* SceneDelegate.swift in Sources */,
+				FABD0252275718C4003FA4FB /* TestConformances5.swift in Sources */,
+				FABD0254275718C4003FA4FB /* TestConformances3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +462,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-lc++";
 				PRODUCT_BUNDLE_IDENTIFIER = com.emerge.ZConformDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -442,6 +491,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-lc++";
 				PRODUCT_BUNDLE_IDENTIFIER = com.emerge.ZConformDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
