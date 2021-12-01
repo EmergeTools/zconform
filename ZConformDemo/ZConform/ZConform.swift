@@ -16,10 +16,10 @@ struct ProtocolDescriptor {
   let associatedTypeNames: Int32
 }
 
-struct ProtocolMetadataLayout {
-    var kind: UInt64
-    var flags: UInt32
-    var numProtocols: UInt32
+struct ExistentialMetadataLayout {
+  var kind: UInt64
+  var flags: UInt32
+  var numProtocols: UInt32
 }
 
 struct StructMetadataLayout {
@@ -115,7 +115,7 @@ func isPossibleConformance(_ type: Any.Type, _ proto: Any.Type) -> Bool {
   }
 
   let pointer = unsafeBitCast(
-    proto, to: UnsafePointer<ProtocolMetadataLayout>.self
+    proto, to: UnsafePointer<ExistentialMetadataLayout>.self
   )
   let classConstrained = (pointer.pointee.flags & 0x80000000) == 0
   guard !classConstrained else {
@@ -124,7 +124,8 @@ func isPossibleConformance(_ type: Any.Type, _ proto: Any.Type) -> Bool {
   }
 
   let rawPointer = UnsafeRawPointer(pointer)
-  var protocolPointer = rawPointer.advanced(by: MemoryLayout<ProtocolMetadataLayout>.size)
+  // Existential metadata is followed by a list of pointers to protocol metadata
+  var protocolPointer = rawPointer.advanced(by: MemoryLayout<ExistentialMetadataLayout>.size)
   var result = true
   for _ in 0..<pointer.pointee.numProtocols {
     let address = protocolPointer.load(as: UInt64.self)
